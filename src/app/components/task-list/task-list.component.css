@@ -1,0 +1,27 @@
+.list {
+  text-align: left;
+  max-width: 750px;
+  margin: auto;
+}
+
+/* Responsive styles for screens smaller than 768px (mobiles) */
+@media screen and (max-width: 767px) {
+  .list {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+}
+
+/* Responsive styles for screens between 768px and 991px (tablets) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .list {
+    max-width: 90%;
+  }
+}
+
+/* Responsive styles for screens 992px and larger (desktops) */
+@media screen and (min-width: 992px) {
+  .list {
+    max-width: 750px; 
+  }
+}

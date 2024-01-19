@@ -1,0 +1,19 @@
+.edit-form {
+  max-width: 400px;
+  margin: auto;
+}
+
+/* Style for pending tasks */
+.pending-task {
+  border: 2px solid #ffc107; /* Yellow border for pending tasks */
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Style for completed tasks */
+.completed-task {
+  border: 2px solid #28a745; /* Green border for completed tasks */
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #d4edda; /* Light green background for completed tasks */
+}
